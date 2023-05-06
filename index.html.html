@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Vamos contar</h1>
+    </header>
+    <section class="box">
+      <div id="box-01">
+        <p>
+          <label for="begin">Início</label>
+          <input type="number" name="begin" id="begin" />
+        </p>
+        <p>
+          <label for="end">Fim</label>
+          <input type="number" name="end" id="end" />
+        </p>
+        <p>
+          <label for="jump">Pular</label>
+          <input type="number" name="jump" id="jump" />
+        </p>
+        <p>
+          <input class="btn" type="button" value="Contar" id="counter" />
+        </p>
+      </div>
+      <div id="box-02">
+        <div id="response">Preparando a contagem...</div>
+        <div id="score"></div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Osmar Viana</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
